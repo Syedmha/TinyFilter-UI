@@ -1,7 +1,12 @@
 @import url(/styles/root.css);
 
-.alert {
-    width: 20rem;
+.alert-container{
+    max-width: 20%;
+}
+
+  .alert{
+    border-radius: 10px;
+    width: 15rem;
     display: flex;
     flex-direction: row;
     font-family: 'League Spartan', sans-serif;
@@ -9,9 +14,48 @@
     padding: 0.5rem;
     align-items: center;
     margin: 1rem 0rem 1rem 0rem ;
+    font-weight: var(--fw-600);
+    font-size: large;
   }
 
   .alert-success{
     background-color: var(--green-50);
-    border-radius: 10px;
+    border-left: 0.5rem solid var(--green-150);
   }
+
+  .success-txt{
+    color: var(--green-200); 
+  }
+
+  .alert-info{
+    background-color: var(--blue-50);
+    border-left: 0.5rem solid var(--blue-150);
+  }
+
+  .info-txt{
+    color: var(--blue-200);
+  }
+
+  .alert-warn{
+    background-color: var(--yellow-50);
+  border-left: 0.5rem solid var(--yellow-150);
+  }
+
+  .warn-txt{
+    color: var(--yellow-200);  }
+
+  .alert-error{
+    background-color: var(--red-50);
+  border-left: 0.5rem solid var(--red-150);
+  }
+
+  .error-txt{
+    color: var(--red-200);
+}
+
+  .close{
+      flex-basis: 10%;
+  }
+
+  
+
