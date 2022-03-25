@@ -1,0 +1,17 @@
+@import url(/styles/root.css);
+
+.alert {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'League Spartan', sans-serif;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    margin: 1rem 0rem 1rem 0rem ;
+  }
+
+  .alert-success{
+    background-color: var(--green-50);
+    border-radius: 10px;
+  }

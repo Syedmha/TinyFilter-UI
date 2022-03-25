@@ -1,2 +1,52 @@
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+
+:root {
+    /*colors*/
+    --primary-dark: #253951;
+    --primary-light: #daeafa;
+    --font: #f0f8ff;
+    --secondary: #f6d000fc;
+  
+    --blue-20: #e4eeff;
+    --blue-50: #d7f1ff;
+    --blue-150: #98d9fe;
+    --blue-200: #3bb3fc;
+    --blue-250: #367af5;
+  
+    --green-20: #dcf6e5;
+    --green-50: #c2f3d6;
+    --green-150: #96eab7;
+    --green-200: #22ab5d;
+    --green-250: #30a94e;
+    --green-300: #006400;
+  
+    --red-20: #ffe5e3;
+    --red-50: #fee0e3;
+    --red-150: #ff99a6;
+    --red-200: #fc465b;
+    --red-250: #eb3d2e;
+    --red-300: #a52a2a;
+  
+    --yellow-20: #fdf2d7;
+    --yellow-50: #ffdb9a;
+    --yellow-150: #fed180;
+    --yellow-200: #ca8501;
+    --yellow-250: #f3aa16;
+  
+    --white: #ffffff;
+    --offwhite: #f5f5f5;
+    --black: #000000;
+  
+    --gray-0: #bdbdbd;
+    --gray-50: #747474;
+    --gray-100: #808080;
+    --gray-200: #3a3a3a;
+  
+    /*font-weight*/
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-800: 800;
+  }
