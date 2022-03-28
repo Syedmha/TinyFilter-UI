@@ -1,0 +1,20 @@
+@import url(/styles/root.css);
+
+.img-res{
+    object-fit: contain;
+    width: 20%;
+    height: 10%;
+}
+
+.img-round{
+    border-radius: 20px;
+    object-fit: contain;
+    width: 20%;
+    height: 10%;
+}
+@media screen and (min-width: 1280px) {
+    .img-res{
+        width: 30%;
+        height: 40%;
+    }
+}
