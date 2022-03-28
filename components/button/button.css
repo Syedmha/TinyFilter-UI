@@ -60,6 +60,13 @@
     color: var(--yellow-250);
   }
 
+.link{
+background-color: var(--blue-250);
+}
+
+.link:hover{
+  background-color: var(--blue-200);
+}
 .btn-icon{
   border: none;
   border-radius: 5px;
@@ -70,3 +77,11 @@
   cursor: pointer;
 }
   
+.fab{
+    border: none;
+    border-radius: 50px;
+    color: var(--font);
+    margin: 1rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
