@@ -1,29 +1,32 @@
 @import url(/styles/root.css);
 
-.nav-container{
+.nav-container {
     display: flex;
     background-color: var(--blue-250);
     margin: none;
-    width: 40%;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0.5rem;
 }
-.li{
+
+.li {
     list-style: none;
     display: inline;
     padding: 1rem;
     font-family: 'League Spartan', sans-serif;
     font-size: 1.5rem;
 }
-.nav-ul{
+
+.nav-ul {
     display: flex;
     justify-content: flex-end;
 }
-.icon{
+
+.icon {
     margin-top: 30px;
 }
-.a:hover{
+
+.a:hover {
     text-decoration: none;
     color: var(--green-200);
 }
