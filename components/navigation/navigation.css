@@ -5,7 +5,7 @@
     background-color: var(--blue-250);
     margin: none;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 0.5rem;
 }
 
