@@ -1,0 +1,17 @@
+.comp-box {
+    width: 80%;
+    border: 5px solid var(--primary-color);
+    padding: 3rem 0;
+    margin: 2rem 0;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.component-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 0 2rem;
+    overflow-y: scroll;
+}
