@@ -1,23 +1,33 @@
 @import url(/styles/root.css);
 
-.email-inp {
-    border-radius: 5px;
-    border: 1px solid var(--primary-dark);
-    font-size: 0.95rem;
-    outline: none;
-    padding: 0.5rem 1rem;
-  }
-  
-  .email-inp:focus {
-    border: 2px solid var(--primary-dark);
-  }
-  
-  .error {
-    background-color: transparent;
-    margin: 0.3rem;
-    display: none;
-    font-size: 1rem;
-    color: var(--red-300);
-    font-style: italic;
-    font-weight: var(--fw-600);
-  }
+.input {
+  font-size: 1.6rem;
+  border: 1px solid var(--primary-dark);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 35%;
+  outline: none;
+}
+
+.input-error {
+  border: 1px solid var(--red-250);
+}
+
+.input-disabled {
+  cursor: not-allowed;
+  border: 2px solid var(--gray-100);
+  /* background-color: var(--code-bg-color); */
+}
+
+.input-valid {
+  border: 1px solid var(--blue-250);
+}
+
+.input-label {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.error-text {
+  color: var(--red-200);
+}

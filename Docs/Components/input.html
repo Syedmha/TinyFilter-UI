@@ -7,20 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input</title>
     <script src="https://kit.fontawesome.com/f3f9dcc437.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/input/input.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+    <link rel="stylesheet" href="/styles/document.css" />
 </head>
 
 <body>
-    <div>
-        <input type="email" name="email" id="email" class="email-inp" placeholder="Email address" required
-            autocomplete="off" />
-    </div>
-    <div>
-        <input type="email" name="email" id="email" class="email-inp" placeholder="Email address" required
-            autocomplete="off" />
-        <div class="error active"></div>
-    </div>
-    <script src="input.js"></script>
+    <section class="component-section">
+        <div class="comp-box flex-col-container">
+            <label class="input-label">Username*</label>
+            <input type="text" class="input input-primary " />
+        </div>
+        <div class="comp-box flex-col-container">
+            <label class="input-label">Username*</label>
+            <input type="text" class="input input-valid " />
+        </div>
+        <div class="comp-box flex-col-container">
+
+            <label class="input-label">Username*</label>
+            <input type="text" class="input input-error " />
+            <div class="input-label error-text"><span>*This is an error text</span></div>
+        </div>
+        <div class="comp-box flex-col-container">
+            <label class="input-label">Email</label>
+            <input type="text" class="input input-disabled" placeholder="This field is disabled" disabled />
+        </div>
+    </section>
 </body>
 
 </html>
