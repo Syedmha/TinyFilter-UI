@@ -3,30 +3,48 @@
 .nav-container {
     display: flex;
     background-color: var(--blue-250);
-    margin: none;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
 }
 
-.li {
-    list-style: none;
-    display: inline;
-    padding: 1rem;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 1.5rem;
+.nav-brandlogo {
+    margin-left: 1.5rem;
+    font-size: 2.2rem;
+    color: var(--font);
 }
 
-.nav-ul {
+.nav-container ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
-.icon {
-    margin-top: 30px;
+.nav-item {
+    list-style-type: none;
+    padding: 1rem;
+    color: var(--font);
+    font-size: 1.8rem;
 }
 
-.a:hover {
+.nav-item a {
+    color: var(--font);
     text-decoration: none;
-    color: var(--green-200);
+
+}
+
+.nav-container .nav-hamburger-menu {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1012px) {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-container .nav-hamburger-menu {
+        display: block;
+        color: var(--font);
+    }
 }
