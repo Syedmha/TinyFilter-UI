@@ -1,73 +1,98 @@
 @import url(/styles/root.css);
 
 .btn {
-    border: none;
-    border-radius: 5px;
-    color: var(--font);
-    font-size: 1.1rem;
-    margin: 1rem;
-    padding: 0.4rem 2rem;
-    cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: var(--font);
+  font-size: 1.1rem;
+  margin: 1rem;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
 }
 
 .primary {
-    background-color: var(--blue-250);
-    color: var(--font);
-  }
-  
+  background-color: var(--blue-250);
+  color: var(--font);
+}
+
 .warning {
-    background-color: var(--red-250);
-  }
-  
+  background-color: var(--red-250);
+}
+
 .success {
-    background-color: var(--green-250);
-  }
-  
+  background-color: var(--green-250);
+}
+
 .attention {
-    background-color: var(--yellow-250);
-  }
+  background-color: var(--yellow-250);
+}
 
-.btn-otl{
-    border-radius: 5px;
-    font-size: 0.8rem;
-    font-weight: var(--fw-600);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 1rem;
-    padding: 0.6rem 2rem;
-    cursor: pointer;
+.btn-otl {
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
 }
-.primary-otl{
-    background-color: transparent;
-    border: 0.5px solid var(--blue-250);
-    color: var(--blue-250);
+
+.primary-otl {
+  background-color: transparent;
+  border: 0.5px solid var(--blue-250);
+  color: var(--blue-250);
 }
+
 .success-otl {
-    background-color: transparent;
-    border: 0.5px solid var(--green-250);
-    color: var(--green-250);
-  }
-  
+  background-color: transparent;
+  border: 0.5px solid var(--green-250);
+  color: var(--green-250);
+}
+
 .warning-otl {
-    background-color: transparent;
-    border: 0.5px solid var(--red-250);
-    color: var(--red-250);
-  }
-  
+  background-color: transparent;
+  border: 0.5px solid var(--red-250);
+  color: var(--red-250);
+}
+
 .attention-otl {
-    background-color: transparent;
-    border: 0.5px solid var(--yellow-250);
-    color: var(--yellow-250);
-  }
-
-.link{
-background-color: var(--blue-250);
+  background-color: transparent;
+  border: 0.5px solid var(--yellow-250);
+  color: var(--yellow-250);
 }
 
-.link:hover{
-  background-color: var(--blue-200);
+.link-btn {
+  border-radius: 5px;
+  color: var(--primary-dark);
+  font-size: 1.1rem;
+  margin: 1rem;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
 }
-.btn-icon{
+
+.link {
+  background-color: var(--blue-250);
+
+}
+
+.link-primary {
+  color: var(--blue-250);
+}
+
+.link-success {
+  color: var(--green-250);
+}
+
+.link-warning {
+  color: var(--red-250);
+}
+
+.link-attention {
+  color: var(--yellow-250);
+}
+
+.btn-icon {
   border: none;
   border-radius: 5px;
   color: var(--font);
@@ -76,12 +101,12 @@ background-color: var(--blue-250);
   padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
-  
-.fab{
-    border: none;
-    border-radius: 50px;
-    color: var(--font);
-    margin: 1rem;
-    padding: 1rem 1rem;
-    cursor: pointer;
+
+.fab {
+  border: none;
+  border-radius: 50px;
+  color: var(--font);
+  margin: 1rem;
+  padding: 1rem 1rem;
+  cursor: pointer;
 }
