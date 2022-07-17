@@ -1,11 +1,12 @@
 @import url(/styles/root.css);
 
 
-.frame{
+.frame {
     display: flex;
     flex-direction: row;
 }
-.card-container{
+
+.card-container {
     margin-top: 30px;
     margin-left: 50px;
     border-radius: 15px;
@@ -19,17 +20,20 @@
     padding: 1rem;
     box-shadow: 4px 4px 15px rgb(26 35 126 / 20%);
 }
-.product-img{
+
+.product-img {
     width: 15rem;
     margin-top: 25px;
 }
-.card-title{
+
+.card-title {
     font-family: 'League Spartan', sans-serif;
     font-size: 1.2rem;
     font-weight: var(--fw-800);
     margin: 0;
 }
-.card-content{
+
+.card-content {
     font-family: 'League Spartan', sans-serif;
     font-size: 1rem;
     /* font-weig ht: var(--fw-200); */
@@ -37,14 +41,15 @@
     /* margin-bottom: 100px; */
     margin-top: 0;
 }
-.card-bottom{
+
+.card-bottom {
     display: flex;
     flex-direction: row;
     width: 15rem;
     justify-content: space-evenly;
 }
 
-.btn-1{
+.btn-1 {
     border: none;
     border-radius: 5px;
     color: var(--font);
@@ -55,17 +60,19 @@
     background-color: var(--blue-250);
     color: var(--font);
 }
-.btn-2{
+
+.btn-2 {
     border: none;
     border-radius: 5px;
-    color:  var(--gray-100);
+    color: var(--gray-100);
     font-size: 0.8rem;
     margin: 0.5rem;
     padding: 0.4rem 1rem;
     cursor: pointer;
-    background-color: var( --font);
+    background-color: var(--font);
 }
-.card-badge{
+
+.card-badge {
     position: absolute;
     border-radius: 6px;
     font-family: 'League Spartan', sans-serif;
@@ -73,7 +80,8 @@
     transform: translate(85px, 1px);
     padding: 0.5rem;
 }
-.cross{
+
+.cross {
     position: absolute;
     border-radius: 6px;
     transform: translate(100px, 4px);
@@ -92,7 +100,7 @@
     /* margin-top: -30rem; */
 }
 
-.txt {
+.overlay-txt {
     position: absolute;
     border-radius: 6px;
     font-family: 'League Spartan', sans-serif;
@@ -102,16 +110,17 @@
     transform: translate(0px, 60px);
     padding: 6rem 3rem;
     opacity: 0.9;
-} 
+}
 
-.card-bottom-txt{
+.card-bottom-txt {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     /* width: 15rem; */
     justify-content: space-evenly;
 }
-.card-container-txt{
+
+.card-container-txt {
     margin-top: 30px;
     margin-left: 50px;
     border-radius: 15px;
@@ -125,7 +134,8 @@
     padding: 1rem;
     box-shadow: 4px 4px 15px rgb(26 35 126 / 20%);
 }
-.btn-1-txt{
+
+.btn-1-txt {
     border: none;
     border-radius: 5px;
     color: var(--font);
@@ -136,18 +146,19 @@
     background-color: var(--blue-250);
     color: var(--font);
 }
-.btn-2-txt{
+
+.btn-2-txt {
     border: none;
     border-radius: 5px;
-    color:  var(--gray-100);
+    color: var(--gray-100);
     font-size: 0.8rem;
     margin: 0.2rem;
     padding: 0.4rem 1rem;
     cursor: pointer;
-    background-color: var( --font);
+    background-color: var(--font);
 }
 
-.card-container-horz{
+.card-container-horz {
     margin-top: 30px;
     margin-left: 50px;
     border-radius: 15px;
@@ -161,18 +172,21 @@
     padding: 1rem;
     box-shadow: 4px 4px 15px rgb(26 35 126 / 20%);
 }
-.product-img-horz{
+
+.product-img-horz {
     width: 10rem;
     margin-top: auto;
     margin-bottom: auto;
 }
-.text-horz{
+
+.text-horz {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.horz-container{
+
+.horz-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
