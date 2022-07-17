@@ -7,21 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badge</title>
     <script src="https://kit.fontawesome.com/f3f9dcc437.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/badge/badge.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+    <link rel="stylesheet" href="/styles/document.css" />
+
 </head>
 
 <body>
-    <div class="container">
-        <span class="badge-dot">
-            <i class="fas fa-bell fa-2x icon-indc"></i>
-            <span class="bubble-weight sm-wt">43</span>
-        </span>
-    </div>
-    <div class="avatar-icon">
-        <img class="avatar-md circle" src="/assets/shelby.jpeg" />
-        <span class="avatar-notif"></span>
-
-    </div>
+    <setion class="component-section">
+        <div class="comp-box flex-row-container">
+            <div class="badge">
+                <i class="fas fa-bell fa-2x"></i>
+                <span class="icon-badge badge-number badge-left">99</span>
+            </div>
+            <div class="badge">
+                <i class="fas fa-bell fa-2x"></i>
+                <span class="icon-badge badge-number badge-right">99</span>
+            </div>
+        </div>
+        <div class="comp-box flex-row-container">
+            <div class="avatar-icon">
+                <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                <span class="avatar-badge badge-online"></span>
+            </div>
+            <div class="avatar-icon">
+                <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                <span class="avatar-badge badge-busy"></span>
+            </div>
+            <div class="avatar-icon">
+                <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                <span class="avatar-badge badge-away"></span>
+            </div>
+        </div>
+    </setion>
 </body>
 
 </html>

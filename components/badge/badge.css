@@ -2,46 +2,60 @@
 @import url(/components/avatar/avatar.css);
 
 
-.container{
-    margin-top: 30px;
-}
-.badge-dot{
-    margin-right: 10px;
+.container {
+  margin-top: 30px;
 }
 
-.icon-indc {
-    position: relative;
-  }
+.badge {
+  font-size: 2rem;
+  position: relative;
+  background-color: transparent;
+}
 
-  .bubble-weight {
-    position: absolute;
-    border-radius: 50%;
-    background-color: var(--yellow-250);
-    color: var(--font);
-  }
-  .sm-wt {
-    transform: translate(-10px, -10px);
-    padding: 0.2rem;
-    font-size: 0.87rem;
-  }
-  
-  .btn{
-      margin-top: 50px;
-      position: relative;
-      border: 0;
-      padding: 10px;
-      background-color: var(--blue-250);
-      color: var(--font);
-  }
+.icon-badge {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.3rem;
+  position: absolute;
+  background-color: var(--blue-250);
+}
 
-  .avatar-notif{
-      position: absolute;
-      border-radius: 50%;
-      background-color: var(--green-250);
-      transform: translate(-25px, 60px);
-      padding: 0.7rem;
-    }
+.badge-number {
+  font-size: 1.3rem;
+  color: var(--font);
+  text-align: center;
+}
 
-    .avatar-icon{
-      margin-top: 50px;
-    }
+.badge-left {
+  top: -15px;
+  left: 35px;
+}
+
+.badge-right {
+  top: -15px;
+  left: 35px;
+}
+
+.avatar-badge {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-25px, 60px);
+  padding: 0.7rem;
+}
+
+.avatar-icon {
+  margin-top: 50px;
+}
+
+.badge-online {
+  background-color: var(--green-250);
+}
+
+.badge-busy {
+  background-color: var(--yellow-250);
+}
+
+.badge-away {
+  background-color: var(--red-250);
+}
