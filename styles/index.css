@@ -1,224 +1,36 @@
 @import url(/styles/root.css);
 
-* {
-    scroll-behavior: smooth;
-    color: var(--primary-dark);
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 8rem;
-    height: 8vh;
-    background-color: aliceblue;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--primary-dark);
-  }
-  .img-header {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-  }
-  .img-logo {
-    height: 4rem;
-    width: 4rem;
-  }
-  .logo {
-    font-size: 2rem;
-    font-weight: var(--fw-800);
-    padding-top: 0.6rem;
-  }
-  
-  .header-nav {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .header-nav .docs {
-    display: inline-block;
-  }
-  
-  .header-nav .link {
-    padding: 0.5rem;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--primary-dark);
-  }
-  
-  .hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: aliceblue;
-    height: auto;
-  }
-  
-  .hero-content {
-    padding: 20vh 8rem;
-  }
-  
-  .img-cnt {
-    margin-left: auto;
-  }
-  
-  .azure {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    color: var(--primary-dark);
-  }
-  
-  .intro {
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin-bottom: 2.5rem;
-  }
-  
-  .btn-cnt {
-    display: flex;
-  }
-  
-  .start-btn {
-    background-color: var(--primary-dark);
-    color: var(--font);
-    border: none;
-    padding: 0.8rem 1.2rem;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  .install-btn {
-    padding: 0.6rem 1.2rem;
-    border: 2px solid var(--primary-dark);
-    color: var(--primary-dark);
-    background-color: var(--font);
-    margin-right: 0.5rem;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  .start-btn:hover {
-    background-color: var(--secondary);
-    color: var(--primary-dark);
-    transition: ease-in 0.2s;
-  }
-  
-  .hero-img {
-    height: 100%;
-    width: 80%;
-  }
-  
-  .section {
-    padding: 2rem 3rem;
-    background-color: var(--primary-light);
-  }
-  .install-hd {
-    margin: 0.8rem 0rem 1.5rem 0rem;
-    font-size: 1.5rem;
-    color: var(--primary-dark);
-  }
-  .install {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .install-card {
-    border: 2px solid rgba(37, 57, 81, 0.2);
-    width: 95%;
-    height: 83%;
-    padding: 1rem;
-    margin-right: 2rem;
-    background-color: var(--font);
-    transition: background-color 0.2s, border 0.2s;
-  }
-  
-  .install-card:nth-child(2) {
-    margin-left: auto;
-  }
-  
-  .css-body {
-    margin: 1rem 0rem;
-    font-size: 0.95rem;
-  }
-  
-  .install-card:hover {
-    border: 2px solid var(--primary-dark);
-  }
-  
-  @media screen and (max-width: 640px) {
-    .header {
-      padding: 0rem 2rem;
-    }
-    .hero-container,
-    .install {
-      display: block;
-    }
-  
-    .hero-img {
-      padding-left: 10%;
-    }
-    .hero-content {
-      padding: 10vh 2rem;
-    }
-  
-    .install-card {
-      margin-top: 2rem;
-    }
-  }
-  
-  @media screen and (max-width: 1050px) {
-    .hero-content {
-      padding: 8vh 2rem;
-    }
-  
-    .hero-img {
-      margin-bottom: 0.5rem;
-    }
-  }
-  
-  .footer {
-    background-color: var(--offwhite);
-    padding: 2rem 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .footer-header {
-    font-size: 1.75rem;
-    color: var(--gray-0);
-    margin: 0 0 1.25rem 0;
-    font-weight: var(--fw-800);
-    text-transform: uppercase;
-  }
-  
-  .footer-sub {
-    font-size: 1rem;
-    color: var(--gray-0);
-    font-weight: 500;
-  }
-  .footer-hr {
-    border: 0;
-    border-top: 1px solid #dadada;
-    margin-bottom: 1.25rem;
-    width: 8.625rem;
-    box-sizing: content-box;
-    height: 0;
-  }
-  
-  .fa-code {
-    color: var(--gray-0);
-  }
-  
-  .social-links{
-    margin-left: auto;
-    margin-right: 2rem;
-  }
-  .fa-github, .fa-linkedin, .fa-globe, .fa-twitter{
-    margin-left: 1rem;
-    color: var(--gray-0);
-  }
+body {
+  margin: 0;
+}
+
+.nav-logo {
+  width: 250px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.hero-section {
+  padding: 1.5rem;
+
+}
+
+.hero-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  width: 90%;
+  max-width: 75rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.hero-img {
+  width: 600px;
+}
+
+.hero-btn {
+  font-size: 10rem;
+}

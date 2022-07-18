@@ -1,4 +1,3 @@
-/* --------------------> Flexbox Utilities <--------------------------- */
 .centered-flex-row-container {
     display: flex;
     flex-direction: row;
