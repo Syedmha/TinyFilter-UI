@@ -1,32 +1,74 @@
 @import url(/styles/root.css);
 
-.h1{
-    font-size: 2.75rem;
-  line-height: 4rem;
+.h1 {
+    font-size: 4rem;
 }
-.h2{
-    font-size: 2rem;
-  line-height: 2.5rem;
+
+.h2 {
+    font-size: 3.2rem;
+
 }
-.h3{
-    font-size: 1.5rem;
-  line-height: 2rem;
+
+.h3 {
+    font-size: 2.4rem;
+
 }
-.h4{
-    font-size: 1rem;
-    line-height: 1.5rem;
+
+.h4 {
+    font-size: 1.6rem;
+
 }
-.h5{
-    font-size: 0.5rem;
-    line-height: 1rem;
+
+.h5 {
+    font-size: 0.8rem;
+
 }
-.h6{
-    font-size: 0.2rem;
-    line-height: 0.5rem;
+
+.lg-txt {
+    font-size: 4rem;
 }
-.gray{
+
+.md-txt {
+    font-size: 3.2rem;
+
+}
+
+.rg-txt {
+    font-size: 2.4rem;
+
+}
+
+.sm-txt {
+    font-size: 1.6rem;
+
+}
+
+
+.gray-txt {
     color: var(--gray-100);
 }
-.center{
+
+.underline-txt {
+    text-decoration: underline;
+}
+
+.strikethrough-txt {
+    text-decoration: line-through;
+}
+
+
+.center {
     text-align: center;
+}
+
+.left-txt {
+    text-align: left;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.right-txt {
+    text-align: right;
 }
