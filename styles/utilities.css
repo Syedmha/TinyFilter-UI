@@ -21,3 +21,31 @@
     display: flex;
     flex-direction: column;
 }
+
+.space-XS {
+    margin: 0.4rem;
+}
+
+.space-S {
+    margin: 0.8rem;
+}
+
+.space-M {
+    margin: 1.2rem;
+}
+
+.space-L {
+    margin: 1.6rem;
+}
+
+.space-XL {
+    margin: 2rem;
+}
+
+.space-XXL {
+    margin: 3.2rem;
+}
+
+.link-active {
+    color: var(--blue-250);
+}
