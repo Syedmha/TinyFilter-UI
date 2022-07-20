@@ -133,6 +133,10 @@
     color: var(--red-200);
 }
 
+.class-to-apply-for-comp {
+    color: var(--blue-250);
+    background-color: var(--blue-20);
+}
 
 /* Footer */
 .footer-container {

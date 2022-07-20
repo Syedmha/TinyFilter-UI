@@ -34,19 +34,16 @@
 
 .badge-right {
   top: -15px;
-  left: 35px;
+  right: 35px;
 }
 
 .avatar-badge {
   position: absolute;
-  border-radius: 50%;
+  border-radius: 100%;
   transform: translate(-25px, 60px);
   padding: 0.7rem;
 }
 
-.avatar-icon {
-  margin-top: 50px;
-}
 
 .badge-online {
   background-color: var(--green-250);

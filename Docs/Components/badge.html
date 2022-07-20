@@ -74,32 +74,82 @@
                 </a>
             </nav>
         </aside>
-        <setion class="component-section">
-            <div class="comp-box flex-row-container">
-                <div class="badge">
-                    <i class="fas fa-bell fa-2x"></i>
-                    <span class="icon-badge badge-number badge-left">99</span>
+        <main class="component-container space-XL">
+            <section class="comp-intro">
+                <h1 class="h3 intro-heading">Badge</h1>
+                <p class="sm-txt">
+                    Badges can be combined with Avatars, they are useful for status of user like busy, offline and away.
+                    They can also be used on icons for notifications.
+                </p>
+            </section>
+            <br>
+            <br>
+            <br>
+            <setion class="component-section">
+                <h3 class="h3 comp-heading">Badges on Image Avatars</h3>
+                <br>
+                <br>
+                <p class="comp-description sm-txt">
+                    Profile Avatars can be created by adding the <span class="class-to-apply-for-comp">.avatar</span>
+                    class on the <code class="code">&lt;img&gt;</code> tag.
+                </p>
+                <div class="comp-box flex-row-container">
+                    <div class="badge">
+                        <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                        <span class="avatar-badge badge-online"></span>
+                    </div>
+                    <div class="badge">
+                        <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                        <span class="avatar-badge badge-busy"></span>
+                    </div>
+                    <div class="badge">
+                        <img class="avatar-md circle" src="/assets/shelby.jpeg" />
+                        <span class="avatar-badge badge-away"></span>
+                    </div>
                 </div>
-                <div class="badge">
-                    <i class="fas fa-bell fa-2x"></i>
-                    <span class="icon-badge badge-number badge-right">99</span>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2854%2C122%2C245%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522avatar-md%2520circle%2522%2520src%253D%2522%252Fassets%252Fshelby.jpeg%2522%2520%252F%253E%250A%2520%2520%2509%253Cspan%2520class%253D%2522avatar-badge%2520badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522avatar-md%2520circle%2522%2520src%253D%2522%252Fassets%252Fshelby.jpeg%2522%2520%252F%253E%250A%2520%2520%2509%253Cspan%2520class%253D%2522avatar-badge%2520badge-busy%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2509%253Cimg%2520class%253D%2522avatar-md%2520circle%2522%2520src%253D%2522%252Fassets%252Fshelby.jpeg%2522%2520%252F%253E%250A%2520%2520%2509%253Cspan%2520class%253D%2522avatar-badge%2520badge-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 900px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-            </div>
-            <div class="comp-box flex-row-container">
-                <div class="avatar-icon">
-                    <img class="avatar-md circle" src="/assets/shelby.jpeg" />
-                    <span class="avatar-badge badge-online"></span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <h3 class="h3 comp-heading">Badge on Icons</h3>
+                    <br>
+                    <p class="sm-txt">
+                        For Icons, you can add these four classes <span
+                            class="class-to-apply-for-comp">.badge-icon</span>, <span
+                            class="class-to-apply-for-comp">.badge-number</span>, <span
+                            class="class-to-apply-for-comp">.badge-left</span>, <span
+                            class="class-to-apply-for-comp">.badge-right</span>.
+                    </p>
                 </div>
-                <div class="avatar-icon">
-                    <img class="avatar-md circle" src="/assets/shelby.jpeg" />
-                    <span class="avatar-badge badge-busy"></span>
+                <div class="comp-box flex-row-container">
+                    <div class="badge">
+                        <i class="fas fa-bell fa-2x"></i>
+                        <span class="icon-badge badge-number badge-left">99</span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="badge">
+                        <i class="fas fa-bell fa-2x"></i>
+                        <span class="icon-badge badge-number badge-right">99</span>
+                    </div>
                 </div>
-                <div class="avatar-icon">
-                    <img class="avatar-md circle" src="/assets/shelby.jpeg" />
-                    <span class="avatar-badge badge-away"></span>
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2854%2C122%2C245%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cspan%2520class%253D%2522icon-badge%2520badge-number%2520badge-left%2522%253E99%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253Cspan%2520class%253D%2522icon-badge%2520badge-number%2520badge-right%2522%253E99%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 900px; height: 377px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-            </div>
-        </setion>
+            </setion>
+        </main>
     </section>
     <footer class="footer-container centered-flex-col-container">
         <p class="footer-header h4">Made
