@@ -29,7 +29,6 @@
 }
 
 .card-title {
-    font-family: 'League Spartan', sans-serif;
     font-size: 1.2rem;
     font-weight: var(--fw-800);
     margin: 0;
@@ -37,11 +36,11 @@
 }
 
 .card-content {
-    font-family: 'League Spartan', sans-serif;
     font-size: 1rem;
     /* font-weig ht: var(--fw-200); */
     color: var(--gray-100);
     /* margin-bottom: 100px; */
+    text-align: center;
     margin-top: 0;
 }
 
@@ -78,7 +77,6 @@
 .card-badge {
     position: relative;
     border-radius: 6px;
-    font-family: 'League Spartan', sans-serif;
     background-color: var(--green-250);
     transform: translate(85px, 1px);
     padding: 0.5rem;
@@ -92,28 +90,29 @@
 }
 
 .overlay-text {
-    /* position: relative;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem;
     font-weight: 300;
-    color: var(--primary-color); */
-    /* opacity: 0.9; */
-    /* margin-top: 30rem; */
+    color: var(--primary-color);
+    opacity: 0.9;
+    /* /* margin-top: 30rem; */
 }
 
 .overlay-txt {
     position: relative;
     border-radius: 6px;
-    /* font-family: 'League Spartan', sans-serif;
-    font-size: 3rem;
-    font-weight: var(--fw-600); */
     background-color: var(--yellow-20);
     transform: translate(0px, 10px);
-    /* padding: 6rem 3rem; */
     opacity: 0.9;
 
+}
+
+
+.overlay-txt .product-img img {
+    opacity: 0.5;
 }
 
 .card-bottom-txt {
@@ -194,4 +193,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.card-img {
+    width: 15rem;
+}
+
+.card-text-overlay .product-img-overlay {
+    position: relative;
+}
+
+.card-text-overlay .product-img-overlay {
+    opacity: 0.5;
+}
+
+.card-text-overlay .product-img-overlay .card-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
