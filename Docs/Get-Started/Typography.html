@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image</title>
+    <title>Introduction</title>
     <script src="https://kit.fontawesome.com/f3f9dcc437.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/components.css" />
     <link rel="stylesheet" href="/styles/document.css" />
@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     <nav class="navbar nav-container centered-flex-row-container">
         <a class="nav-brandlogo" href="/index.html">
             <img src="/assets/tinyfilterlogo.png" class="nav-logo">
@@ -34,8 +35,8 @@
                 <a class="sidebar-item centered-flex-row-container" href="/Docs/Get-Started/Introduction.html">
                     <div class="sidebar-item-txt">Installation</div>
                 </a>
-                <a class="sidebar-item centered-flex-row-container" href="/Docs/Get-Started/Introduction.html">
-                    <div class="sidebar-item-txt">Typography</div>
+                <a class="sidebar-item centered-flex-row-container" href="/Docs/Get-Started/Typography.html">
+                    <div class="link-active sidebar-item-txt">Typography</div>
                 </a>
                 <br>
                 <div class="sidebar-heading">
@@ -58,7 +59,7 @@
                     <div class="sidebar-item-txt">Card</div>
                 </a>
                 <a href="/Docs/Components/image.html" class="sidebar-item centered-flex-row-container">
-                    <div class="link-active sidebar-item-txt">Image</div>
+                    <div class="sidebar-item-txt">Image</div>
                 </a>
                 <a href="/Docs/Components/input.html" class="sidebar-item centered-flex-row-container">
                     <div class="sidebar-item-txt">Input</div>
@@ -74,15 +75,60 @@
                 </a>
             </nav>
         </aside>
-        <section class="component-section">
-            <div class="comp-box centered-flex-row-container">
-                <img src="/assets/shelby.jpeg" class="img-responsive" />
-            </div>
-            <div class="comp-box centered-flex-row-container">
-                <img src="/assets/shelby.jpeg" class="img-round" />
-            </div>
-        </section>
+
+        <main class="component-container space-XL">
+            <section>
+                <h1 class="h3 intro-heading">Typography</h1>
+                <p class="sm-txt">
+                    TinyFilter uses a consistent typography to help you build consistent UIs.
+                </p>
+            </section>
+            <br>
+            <br>
+            <hr class="content-divider">
+            <br>
+            <br>
+
+            <section>
+                <h3 class="h3 intro-heading">Font Family</h3>
+                <p class="sm-txt">
+                    TinyFilter uses the Lora font as its default font which is a free font
+                    available at
+                    Google
+                    Fonts.
+                </p>
+
+                <br>
+                <br>
+
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2854%2C122%2C245%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DLora%253Awght%2540400%253B700%2526display%253Dswap%27%29%253B"
+                        style="width: 1024px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3 class="h3 intro-heading">Text Utilities</h3>
+                <p class="sm-txt">
+                    To import all the Text Utilities provided by TinyFilter, just copy the below code snippet and
+                    paste
+                    it in your CSS stylesheet.
+                </p>
+                <br>
+                <br>
+
+                <div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2854%2C122%2C245%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Ftinyfilter-ui.netlify.app%252Fcomponents%252Ftext%252Ftext.css%27%29%253B"
+                        style="width: 1024px; height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </main>
     </section>
+
     <footer class="footer-container centered-flex-col-container">
         <p class="footer-header h4">Made
             by Syed Muzzammil
@@ -109,6 +155,7 @@
             © 2022 | TinyFilter
         </p>
     </footer>
+
 </body>
 
 </html>

@@ -12,31 +12,137 @@
 </head>
 
 <body>
-    <section class="component-container">
-        <div class="comp-box flex-col-container">
-            <div class="alert  alert-success">
-                <i class="fas fa-check-circle"></i>
-                Success!
-                <i class="fas fa-times"></i>
-            </div>
-            <div class="alert  alert-info">
-                <i class="fas fa-check-circle"></i>
-                Information!
-                <i class="fas fa-times"></i>
-            </div>
-            <div class="alert  alert-warn">
-                <i class="fas fa-check-circle"></i>
-                Warning!
-                <i class="fas fa-times"></i>
-            </div>
-            <div class="alert  alert-error">
-                <i class="fas fa-check-circle"></i>
-                Error!
-                <i class="fas fa-times"></i>
-            </div>
+    <nav class="navbar nav-container centered-flex-row-container">
+        <a class="nav-brandlogo" href="/index.html">
+            <img src="/assets/tinyfilterlogo.png" class="nav-logo">
+        </a>
+        <ul>
+            <li class="nav-item sm-txt"><a href="/index.html">Home</a></li>
+            <li class="nav-item sm-txt"><a href="#">Documentation
+                </a></li>
+        </ul>
+        <i class="nav-hamburger-menu fas fa-bars fa-2x"></i>
+    </nav>
+    <section class="sidebar-container ">
+        <aside class="sidebar">
+            <nav class="sidebar-nav centered-flex-col-container">
+                <div class="sidebar-heading">
+                    <h3 class="h4">GET STARTED</h3>
+                </div>
 
-        </div>
+                <a class="sidebar-item centered-flex-row-container" href="/Docs/Get-Started/Introduction.html">
+                    <div class="sidebar-item-txt">Installation</div>
+                </a>
+                <a class="sidebar-item centered-flex-row-container" href="/Docs/Get-Started/Introduction.html">
+                    <div class="sidebar-item-txt">Typography</div>
+                </a>
+                <br>
+                <div class="sidebar-heading">
+                    <h3 class="h4">COMPONENTS</h3>
+                </div>
+
+                <a href="/Docs/Components/alert.html" class="sidebar-item centered-flex-row-container">
+                    <div class="link-active sidebar-item-txt">Alert</div>
+                </a>
+                <a href="/Docs/Components/avatar.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Avatar</div>
+                </a>
+                <a href="/Docs/Components/badge.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Badge</div>
+                </a>
+                <a href="/Docs/Components/button.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Button</div>
+                </a>
+                <a href="/Docs/Components/card.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Card</div>
+                </a>
+                <a href="/Docs/Components/image.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Image</div>
+                </a>
+                <a href="/Docs/Components/input.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Input</div>
+                </a>
+                <a href="/Docs/Components/list.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">List</div>
+                </a>
+                <a href="/Docs/Components/navigation.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Navigation</div>
+                </a>
+                <a href="/Docs/Components/text.html" class="sidebar-item centered-flex-row-container">
+                    <div class="sidebar-item-txt">Text</div>
+                </a>
+            </nav>
+        </aside>
+
+        <section class="component-container">
+            <h3 class="h3">Simple Alert</h3>
+            <br>
+            <br>
+            <p class="sm-txt">
+                There are five variants of Simple Alerts available, <code
+                    class="code success-alert-code">success alert</code>, <code
+                    class="code info-alert-code">info alert</code>, <code
+                    class="code warning-alert-code">warning alert</code>, and <code
+                    class="code error-alert-code">error alert</code>. Simple Alerts can be created by adding the <span
+                    class="class-to-apply-for-comp">.alert</span> class
+                and as per your requirement for the variant, you will have to add <span
+                    class="class-to-apply-for-comp">.alert-success</span>, <span
+                    class="class-to-apply-for-comp">.alert-info</span>, <span
+                    class="class-to-apply-for-comp">.alert-warn</span>, <span
+                    class="class-to-apply-for-comp">.alert-error</span> class names.
+            </p>
+            <div class="comp-box flex-col-container">
+                <div class="alert  alert-success">
+                    <i class="fas fa-check-circle"></i>
+                    Success!
+                </div>
+                <div class="alert  alert-info">
+                    <i class="fas fa-check-circle"></i>
+                    Information!
+                </div>
+                <div class="alert  alert-warn">
+                    <i class="fas fa-check-circle"></i>
+                    Warning!
+                </div>
+                <div class="alert  alert-error">
+                    <i class="fas fa-check-circle"></i>
+                    Error!
+                </div>
+
+            </div>
+            <div><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2854%2C122%2C245%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Success%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520%2520alert-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Information%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520%2520alert-warn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Warning%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Error%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 526px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe></div>
+        </section>
     </section>
+    <footer class="footer-container centered-flex-col-container">
+        <p class="footer-header h4">Made
+            by Syed Muzzammil
+        </p>
+
+        <ul class="social-icons centered-flex-row-container space-S">
+            <li class="footer-social-item">
+                <a href="https://github.com/Syedmha" target="_blank">
+                    <i class="fa footer-icon fa-github-square"></i>
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href="https://twitter.com/syedmuzzammil15" target="_blank">
+                    <i class="fa footer-icon fa-twitter"></i>
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href="https://www.linkedin.com/in/syed-muzzammil/" target="_blank">
+                    <i class="fa footer-icon fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="copyright sm-txt">
+            © 2022 | TinyFilter
+        </p>
+    </footer>
 </body>
 
 </html>
