@@ -44,6 +44,23 @@
 }
 
 
+.bolder-txt {
+    font-weight: 900;
+}
+
+.bold-txt {
+    font-weight: 700;
+}
+
+.regular-txt {
+    font-weight: 500;
+}
+
+.light-txt {
+    font-weight: 300;
+}
+
+
 .gray-txt {
     color: var(--gray-100);
 }
